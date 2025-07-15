@@ -21,11 +21,16 @@ credit-card-fraud-detection-xgboost/
 ```
 ## Dataset
 
-The dataset is not included in this repository due to size constraints. You can download it directly from Kaggle:
+This project uses the Kaggle Credit Card Fraud Detection dataset, containing 284,807 transactions where only 0.17% are fraudulent:
 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Once downloaded, place the CSV file(s) in a data/ directory at the root of this project:
+Due to size constraints, the dataset is not included in this repository.
+Download it from Kaggle and place it in the data/ folder:
+```bash 
+data/creditcard.csv
+```
+
 
 ## Final Model Performance
 
@@ -38,8 +43,9 @@ Once downloaded, place the CSV file(s) in a data/ directory at the root of this 
 ## Requirements
 
 Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
