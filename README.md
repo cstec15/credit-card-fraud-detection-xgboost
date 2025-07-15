@@ -1,14 +1,31 @@
-# credit-card-fraud-detection-xgboost
+# Credit Card Fraud Detection with XGBoost
 
-This project builds a machine learning pipeline to detect fraudulent credit card transactions using XGBoost. It includes exploratory data analysis (EDA), model selection (logistic regression, random forest, XGBoost), and hyperparameter tuning.
+This repository contains a machine learning pipeline for detecting fraudulent credit card transactions using the popular Kaggle Credit Card Fraud Detection dataset. The goal is to identify fraudulent transactions (which represent only 0.17% of all transactions) with high recall and precision and maximize AUPRC.
 
 ## Project Structure
 
-notebooks/ # Jupyter notebooks for EDA and model selection
-data/ # Dataset (Kaggle credit card fraud dataset)
-models/ # Saved model (.pkl) for deployment
-src/ # Core Python scripts (optional)
+```
+credit-card-fraud-detection-xgboost/
+├── data/                  # (not included) Dataset folder, see Kaggle link in README
+├── models/                # Saved models (pickled)
+│   └── final_model.pkl    # XGBoost model with optimized threshold
+├── notebooks/             # Jupyter notebooks for EDA & modeling
+│   ├── Data Ingestion, Learning, and Exploration.ipynb
+│   ├── Logistic Regression.ipynb
+│   ├── Random Forest.ipynb
+│   ├── XG Boost.ipynb
+│   └── Final Pipeline.ipynb
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
 
+```
+## Dataset
+
+The dataset is not included in this repository due to size constraints. You can download it directly from Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Once downloaded, place the CSV file(s) in a data/ directory at the root of this project:
 
 ## Final Model Performance
 
