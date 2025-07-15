@@ -8,13 +8,13 @@ This repository contains a machine learning pipeline for detecting fraudulent cr
 credit-card-fraud-detection-xgboost/
 │
 ├── data/                   # (not included) Dataset folder, see below
-├── models/                 # Saved models (pickled)
+├── models/                 # Saved models
+│   └── final_model.pkl     # XGBoost model with optimized threshold
 ├── notebooks/              # Jupyter notebooks for EDA & modeling
 │   ├── 1_eda.ipynb
 │   ├── 2_logistic_regression.ipynb
 │   ├── 3_random_forest.ipynb
 │   ├── 4_xgboost.ipynb
-├── final_model.pkl         # XGBoost model with optimized threshold
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 ```
