@@ -4,6 +4,7 @@ This repository contains a machine learning pipeline for detecting fraudulent cr
 
 ## Project Structure
 
+```
 credit-card-fraud-detection-xgboost/
 │
 ├── data/                   # (not included) Dataset folder, see below
@@ -16,7 +17,7 @@ credit-card-fraud-detection-xgboost/
 ├── final_model.pkl         # XGBoost model with optimized threshold
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-
+```
 ## Dataset
 
 The dataset is not included in this repository due to size constraints. You can download it directly from Kaggle:
