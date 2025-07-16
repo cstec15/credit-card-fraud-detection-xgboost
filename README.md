@@ -2,6 +2,8 @@
 
 This repository contains a machine learning pipeline for detecting fraudulent credit card transactions using the popular Kaggle Credit Card Fraud Detection dataset. The goal is to identify fraudulent transactions (which represent only 0.17% of all transactions) with high recall and precision and maximize AUPRC.
 
+This is an initial version of the project. Iterative improvements in progress.
+
 ## Project Structure
 
 ```
